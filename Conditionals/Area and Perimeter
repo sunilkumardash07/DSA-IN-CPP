@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main() {
+	float l;
+	cout<<"Enter Length= ";
+	cin>>l;
+	float b;
+	cout<<"Enter Breadth= ";
+	cin>>b;
+	float A=l*b;
+	float P=2*(l+b);
+
+	if(A>P)cout<<"TRUE";
+	else if (A<P)cout<<"FALSE";
+	else cout<<"Area is same as Perimeter";
+
+
+
+
+}
