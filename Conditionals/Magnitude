@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main() {
+	int n;
+	cout<<"Enter Number= ";
+	cin>>n;
+	//Magnitude lesser than 69
+	if(n>-69 and n<69)cout<<"Magnitude is smaller than 69";
+	else cout<<"Magnitude is greater than 69";
+
+
+
+
+
+
+
+
+}
