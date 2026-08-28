@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main() {
+   //CHAR DATA TYPE
+   // a b c d,,,z
+   // A B C D,,,Z
+    //!@#$%^&*()_+-=,.
+    //0123456789..
+    char x='a';// single quotes used
+    cout<<x<<endl;
+    char ch='1';
+    cout<<ch<<endl;
+    char xy='$';
+    cout<<xy;
+    
+    
+}
