@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+int main() {
+	//Ques. Take 3 positive integers input and print the greatest of them
+	float a, b, c;
+	cout<<"Enter number(a)= ";
+	cin>>a;
+
+	cout<<"Enter number(b)= ";
+	cin>>b;
+
+	cout<<"Enter number(c)= ";
+	cin>>c;
+	if(a==b and b==c)cout<<"All are Equal= "<<a;
+
+
+	else if(a>=b and a>=c)cout<<"Greatest of them= "<<a;
+	else if(b>=c and b>=a)cout<<"Greatest of them= "<<b;
+	else if(c>=b and c>=a)cout<<"Greatest of them= "<<c;
+
+
+
+
+
+}
