@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main() {
+	//NESTED If-else
+	//if else ke andar if else
+	//Ques. Three digit no. or not
+	int n;
+	cout<<"Enter Number= ";
+	cin>>n;
+	if(n>=100) {
+		if(n<=999)cout<<"It is a Three Digit Number";
+		else cout<<"It is not a three Digit Number";
+	}
+	else cout<<"It is not a three Digit Number";
+
+
+
+
+
+}
