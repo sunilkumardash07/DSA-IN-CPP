@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main() {
+	//Ques. Capital alphabet or not.
+	char AB;
+
+	cout<<"Enter The Character= ";
+	cin>>AB;
+
+	if((int)AB>=65 && AB<=90)cout<<"It is An Capital Alphabet";//char ko number ke saath compare krne par int likhne ka jarurat nhi padti cpp mein
+	else cout<<" No it is not an Capital alphabet";
+
+
+
+
+
+
+
+}
