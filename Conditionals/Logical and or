@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+int main(){
+    //logical and--> && and means intersection
+    //logical or-->|| or means union
+    //Question. Take positive input and tell if it is a four digit number or not
+    // four digit number is 1000<= x =>9999
+    //cpp mein if ke bracket ke andar ye upar condition nhi likh skte
+    //SHORT CIRCUITING
+    //and mein pehla true toh aage wala bi check hoga pehla false toh pura statement false
+    // or mein true hai aage wala check nhi hoga agar false hai toh check hoga
+    
+    
+    int n;
+    cout<<"Enter Number= ";
+    cin>>n;
+    if(n>=1000 && n<=9999)cout<<"Yes, It is a four digit number.";// and bhi likh skte ho cpp mein 
+    else cout<<"No, It is not a four digit number.";
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
