@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main() {
+	//If Many Conditions are there.
+	// use else if
+	// u can also use it in SPCP.
+	float SP;
+	cout<<"Enter SP= ";
+	cin>>SP;
+	float CP;
+	cout<<"Enter CP= ";
+	cin>>CP;
+	float x= SP-CP;
+	if(x==0)cout<<"NO PROFIT NO LOSS";
+	else if(x>0)cout<<"PROFIT= "<<x;
+	else cout<<"LOSS= "<<x*-1;
+
+}
