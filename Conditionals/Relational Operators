@@ -1,0 +1,34 @@
+#include <iostream>
+using namespace std;
+int main() {
+	//6 RELATIONAL OPERATORS
+	//>,<,<=,>=,==,!=
+	cout<<(5>3)<<endl;//True=1
+	cout<<(4==8)<<endl;//false=0
+	cout<<(8==8)<<endl;//True= 1
+	int x=3;
+	int y=3;
+	cout<<(x==y)<<endl;//True=1
+	int a=3;
+	int b=9;
+	cout<<(a>=b)<<endl;
+	cout<<(a<=b)<<endl;
+	cout<<(a!=b)<<endl;//not equal to
+
+
+	int m=2;
+	int n=3;
+	bool z=(m!=n);// z=true->1
+	cout<<z+1<<endl;//1+1=2
+	
+	
+	//a=b ka mtlb b ka value a ke dabbe mein.Assignment operator
+	//a==b true or false mein answer dega. Equality operator
+
+
+
+
+
+
+
+}
