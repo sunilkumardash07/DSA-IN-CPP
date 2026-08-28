@@ -1,0 +1,35 @@
+#include<iostream>
+using namespace std;
+int main() {
+	cout<<"Hello World! Sunil";// quotes ke andar print ho jayega
+	cout<<endl;// ek tarika enter ka
+	cout<<"Hello World! Sonu\n";
+
+	cout<<"Hello PW\n";// \n humesha quotes ke andar dhyaan se
+
+	cout<<"Hello Live"<<endl;
+	cout<<"Hello Everyone"<<endl;
+	cout<<"Sunil\nKumar\nDash\n";
+	cout<<18*2<<endl;
+	cout<<"18*2"<<endl;
+	int  x=8;
+	cout<<x<<endl;
+	cout<<x+12<<endl;
+	int y;// declaration(container bn gya)
+	y=2;//initialization
+	cout<<y<<endl;
+	int a=13, b=9;
+	cout<<a+b<<endl;
+	int m=1, n=10;
+	cout<<m<<endl<<n<<endl;// isko kehte hain comments ye sab print nhi hoga use it for notes
+	//int m=4 fir se mt likhna ERROR
+	m=4;// fir se int mt likhna and m is no more 1 it is used to modify the value
+	cout<<m<<endl;
+	// to comment out use ctrl+/ in mac use command +/ orelse write at first /* and the end */
+	
+
+
+
+
+
+}
