@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main(){
+    cout<<"Hello"<<endl;
+    int x=39;
+   int y=10;
+   cout<<x+y<<endl;
+   cout<<x-y<<endl;
+   cout<<x*y<<endl;
+   cout<<x/y<<endl;// int/int = int is always an int so the decimal part id deducted
+   float m= 3.1415;
+   cout<<m<<endl;// float is for real nos.
+ float a= 5;// float is for real nos.
+ float b= 2;// float is for real nos.
+ cout<<a/b<<endl;// float/float = float so no prblm
+ 
+
+   
+    
+    
+    
+}
