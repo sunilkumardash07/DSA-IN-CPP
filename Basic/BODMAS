@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main() {
+    //BODMAS D,M>A,S
+    //LEFT TO RIGHT BY default
+    float x = 2/3*6;
+    cout<<x;
+    int y=2/3*6;
+    cout<<y;
+    //same because 2/3 is a float individual but in expression it is integer by default
+    
+    
+    
+}
