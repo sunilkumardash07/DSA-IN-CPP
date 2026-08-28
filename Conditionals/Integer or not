@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main(){
+  float n;
+  cout<<"Enter The Number= ";
+  cin>>n;
+   int y=(int)n;
+   if (n==y) cout<<"Integer";
+   else cout<<"Not an Integer";
+   
+    
+    
+}
