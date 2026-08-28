@@ -1,0 +1,12 @@
+#include <iostream>
+#include<climits>
+using namespace std;
+int main() {
+    unsigned int x;//can only take positive integers upto 2^32 
+    
+    
+    
+    
+    
+    
+}
