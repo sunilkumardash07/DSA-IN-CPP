@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int Sunil=5;
+    cout<<Sunil<<endl;
+    //int for=4; we can't use this for variable ERROR
+    int from=4;// from can run
+    cout<<from<<endl;
+    // VARIABLE NAMING RULES
+    // 1. variables can strt from alpahabet or __(nos. not at strt orelse anywhere)
+    // e,g. int 1x=3; ERROR
+    // 2. Special characters except _ are not allowed
+    // ! @ # $ % ^ & *  ( ) - { } [ ] \ | / ? < > , . : ; " " ' ' ` ~ = not allowed
+    // 3. Blanks, commas not allowed
+    // int r g= 11; ERROR
+    // 4. Keywords not allowed
+    //if for while do float int etc. u can use CAPITAL or add nos in the keyword
+    // CAPITAL STRT always allowed
+    int for1=3;
+    cout<<for1<<endl;
+    int For=2;
+    cout<<For<<endl;
+    int _12=5;
+    cout<<_12<<endl;
+    
+    
+    
+    
+    
+    
+}
