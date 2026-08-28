@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	cout<<"Enter Radius: ";
+	float radius;
+	cin>>radius;
+//endl ke bina line change
+// hum enter input dene ghadi de de rhe hain.
+
+	float area= 3.141592*radius*radius;
+	cout<<"Area Of The Circle is: ";
+	cout<<area<<endl;
+
+
+}
