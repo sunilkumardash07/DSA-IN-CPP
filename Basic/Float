@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main() {
+    cout<<5+2<<endl;
+    cout<<5-2<<endl;
+    cout<<5*2<<endl;
+    cout<<5.0/2.0<<endl;//float/float=float
+cout<<5.0/2<<endl;//float/int = float
+    cout<<5/2<<endl;//int by default
+    
+    //either float = float
+    
+    
+}
