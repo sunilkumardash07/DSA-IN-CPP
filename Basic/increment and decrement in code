@@ -1,0 +1,44 @@
+#include<iostream>
+using namespace std;
+int main() {
+	int x=10;
+	cout<<x++<<endl;//Post Increment Pehle istemaal baad mein badhau
+	cout<<x<<endl;
+	x++;
+	cout<<x<<endl;
+	cout<<endl;
+
+	int y=10;
+	cout<<++y<<endl;//Pre Increment pehle badha fir istemaal
+	cout<<y<<endl;
+	cout<<endl;
+
+
+	int a=20;
+	cout<<a--<<endl;//Post decrement
+	cout<<a<<endl;
+	cout<<endl;
+
+
+	int b=20;
+	cout<<--b<<endl;//Pre decrement
+	cout<<b<<endl;
+	cout<<endl;
+
+	cout<<"QUESTION ANSWER"<<endl;
+	int m=8;
+	int n= m++ + --m;//8+8 NOT 9+7 KYONKI PEHLE 8 rhega fir 8++ ke baad 9 hogya fir --9 hoke 8 hogya
+	cout<<n<<endl;
+	cout<<endl;
+
+	cout<<"2.QUEST ANS"<<endl;
+	int p=8;
+	int q=p++ + ++p;//8+10 8++ 9 hogya fir se 10 hogya
+	cout<<q<<endl;
+
+
+
+
+
+
+}
