@@ -1,0 +1,53 @@
+#include <iostream>
+using namespace std;
+int main() {
+	int x=0;
+	if(x)cout<<"ABC";
+	else cout<<"XYZ";
+	cout<<endl;
+
+	int y=1;
+	if(y)cout<<"ABC";
+	else cout<<"XYZ";
+	cout<<endl;
+
+	int z=34;
+	if(z)cout<<"ABC";
+	else cout<<"XYZ";
+	cout<<endl;
+
+	//All real nos. except 0 is true in C++.
+
+	int a=0;
+	if(a=0)cout<<"XYZ";//ye nhi aaya kyonki a mein 0 aaya isiliye false toh ABC aa gya
+	if(a==0)cout<<"ABC\n";
+
+	int b=7;
+	if(b=7)cout<<"ABC"<<endl;//ye true hai
+	if(b==7)cout<<"XYZ"<<endl;//ye toh bilkul sahi hai
+
+
+	if('A')cout<<"ABC"<<endl;
+	if('a')cout<<"PQR"<<endl;
+
+
+	int w=0;
+	if(w++)cout<<"MN"<<endl;//yahaan value 0 hai post increment pehle istemaal...
+	else cout<<"PQ"<<endl;
+	if(w)cout<<"XY"<<endl;//ab w=1 ho chuka hai
+	else cout<<"OP"<<endl;// isiliye ye nhi aaya
+
+	int u=0;
+	if(++u)cout<<"AB"<<endl;//yahaan value 1 hai
+	else cout<<"YZ"<<endl;
+
+
+//SHORT CIRCUITING
+
+	int m=4,n=6;
+	if(m++ || n++)cout<<m <<n<<endl;//4 hogya 5, or operator hai agar pehla sahi ho gya toh baad wala nhi dekha gya isiliye 5,6 hua. y ka increment nhi hua
+	else cout<<"EF"<<endl;
+
+	if(m++ && n++)cout<<m <<n;// ab ye 67 hoga
+
+}
