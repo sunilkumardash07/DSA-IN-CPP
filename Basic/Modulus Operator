@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int main() {
+    //a%b= gives remainder when a is divided by by
+    cout<<5%2<<endl;
+    cout<<52%22<<endl;
+    cout<<25%5<<"\n";
+    //PROPERTIES OF MODULUS operator
+    //1.a&b= a(if a<b)
+    //2%5= 2
+    cout<<34%56<<endl;
+    //2.a%-b= a%b
+    //7&-2= 7%2
+    cout<<34%(-10)<<endl;//34%10
+    // 3. -a%b= -(a%b)
+    cout<<-54%32;
+    
+    
+    
+    
+    
+}
