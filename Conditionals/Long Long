@@ -1,0 +1,13 @@
+#include <iostream>
+#include<climits>// versions ke matter krta hai vs code aur naye versions mein ye header ki jarurat nhi hai
+using namespace std;
+int main() {
+  //range of int ke bahar ke liye dusra datatype chlta hai
+  //long long x: -2^63<x<2^63-1
+  long long x= LLONG_MAX , y= LLONG_MIN;//it also stores integer but a greater range
+    cout<<x<<endl;
+    cout<<y<<endl;
+    
+    
+    
+}
