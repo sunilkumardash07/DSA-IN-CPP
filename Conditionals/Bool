@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main(){
+
+    bool x= true;
+    bool y= false;
+    
+    cout<<x<<endl;// 1-True
+    cout<<y<<endl;//0-false
+    
+    
+    
+}
