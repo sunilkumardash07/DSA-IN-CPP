@@ -1,7 +1,21 @@
-#inlcude <iostream>
+#include <iostream>
 using namespace std;
-int main(){
-cout<<"Sunil";
+int main() {
+	//LOOPS--> Repetition
+	//10 times cout likhne se accha hai LOOPS
+	int n;
+	cout<<"Enter Number= ";
+	cin>>n;
+	for(int i=1; i<=n; i++) { //i ke dabbe mein 1(INITIALISATION), i n se equal aur chhota(CONDITION), i ka post increment(INCREMENT)
+		cout<<"Good Morning"<<endl; // BODY OF THE LOOP
+	}
+
+	for(int i=1; i<=3; i++) {
+		cout<<"Hello Guys"<<endl;
+	}
+	// INITIALISATION once and CONDITION, WORK, INCREMENT repeat itself till a condition get false
+	// ++i, i+=1 i=i+1 likh skte ho
+
 
 
 
