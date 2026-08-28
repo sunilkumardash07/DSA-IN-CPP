@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int x=6;
+    int y= (x>12) ? x-4 : x*4;
+    cout<<y<<endl;
+    
+    int z= (x++>12) ? x-4 : x*4;//6>12 baad mein 7 ho gya 7*4=28
+    cout<<z<<endl;
+    
+    
+    
+    
+    
+}
