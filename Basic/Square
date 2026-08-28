@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main(){
+    float x;
+    cout<<"Number = ";
+    cin>>x;
+    float X2=x*x;
+    cout<<"Square = ";
+    cout<<X2;
+    
+}
