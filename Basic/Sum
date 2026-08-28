@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+int main() {
+    float a;
+    float b;
+    cout<<"a=";
+    cin>>a;
+    cout<<"b=";
+    cin>>b;
+    cout<<"a+b=";
+    float x=a+b;
+    cout<<x<<endl;// direct cout<<a+b;likhe direct kr skte ho
+   int z,y;
+  cin>>z>>y; 
+  cout<<"Answer= ";
+  cout<<z-y;
+   //direct method
+   
+   
+   
+   
+    
+}
