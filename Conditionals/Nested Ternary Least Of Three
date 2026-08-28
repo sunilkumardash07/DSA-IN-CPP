@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main(){
+   //Ques. Least of 3 with Nested Ternary
+   
+   int x,y,z;
+   cout<<"Enter The Number= ";
+   cin>>x;
+   cout<<"Enter The Number= ";
+   cin>>y;
+   cout<<"Enter The Number= ";
+   cin>>z;
+   
+   int a = (x<y) ? ((x<z) ? x : ((z<y) ? z : x)) : ((y<z) ? y : ((z<x) ? z : x));
+   
+    cout<<"Least of Three Nos.= ";
+    cout<<a;
+    
+    
+    
+    
+}
