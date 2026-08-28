@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+int main() {
+	//TERNARY OPERATOR(if else but in breif)
+	//condition ? sach: jhooth
+	//ODD OR EVEN
+	int n;
+	cout<<"Enter Number= ";
+	cin>>n;
+
+	(n%2==0) ? cout<<"EVEN": cout<<"ODD"<<endl;//ye C++ mein kaam krta hai
+
+
+	int x;
+	cout<<"Enter Number= ";
+	cin>>x;
+
+
+	cout<<((x%2==0) ? "EVEN": "ODD");//ye baaki language mein bhi kaam krta hai
+
+
+
+
+}
