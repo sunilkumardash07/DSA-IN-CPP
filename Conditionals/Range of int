@@ -1,0 +1,23 @@
+#include <iostream>
+#include<climits>// versions ke matter krta hai vs code aur naye versions mein ye header ki jarurat nhi hai
+using namespace std;
+int main() {
+	//Ranges of int -2^31<x<2^31-1
+	int x= INT_MAX;//INT_MAX bina climits header ke gdb mein nhi chalega
+
+	cout<<x<<endl;
+
+	int y = 2147483650;
+	// negative aagya kyonki ye no. hold nhi kr skta toh woh ghumke negative no. aagya
+	cout<<y<<endl;
+
+	int z= INT_MIN;//INT_MIN bina climits header ke gdb mein nhi chalega
+	cout<<z<<endl;
+
+
+
+
+
+
+
+}
