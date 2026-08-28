@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+int main(){
+   //Ques. Greatest of 3 with Nested Ternary
+   
+   int x,y,z;
+   cout<<"Enter The Number= ";
+   cin>>x;
+   cout<<"Enter The Number= ";
+   cin>>y;
+   cout<<"Enter The Number= ";
+   cin>>z;
+   
+   int a = (x>y) ? ((x>z) ? x: ((z>y) ? z : y)) : ((y>z) ? y : ((z>y) ? z : y));
+    cout<<"Greatest of Three Nos.= ";
+    cout<<a;
+    
+    
+    
+    
+}
