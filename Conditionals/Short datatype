@@ -1,0 +1,12 @@
+#include <iostream>
+#include<climits>// versions ke matter krta hai vs code aur naye versions mein ye header ki jarurat nhi hai
+using namespace std;
+int main() {
+   //short x: -2^15<x<2^15-1
+   short x= INT16_MIN, y= INT16_MAX;
+   cout<<x<<endl;
+   cout<<y<<endl;
+    
+    
+    
+}
