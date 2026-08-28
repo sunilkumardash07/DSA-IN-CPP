@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+int main(){
+    //double vs float both stores real numbers 
+    // double is more precise it can store in more decimal places.
+    double x=3.14124352345436;
+    float y= 3.1424352345436;
+    cout<<x<<endl;
+    cout<<y<<endl;
+    
+    // Here it only shows upto 5 decimal places due to something which will be taught later
+    
+    
+    
+    
+}
