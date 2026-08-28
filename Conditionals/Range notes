@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main(){
+    //1 byte=8 bits
+    //bits only 0 and 1 can take place(binary)
+    //1 kb= 1000 bytes
+    //1 mb= 1000 kb
+    //1 gb= 1000 mb
+    // int takes 4 bytes= 32 bits---> therefore it can store 2^32 numbers so we will take 2^31 and for zero we take -1 at the positive side
+    //long long 8 bytes= 64 bits
+    //short 2 bytes= 16 bits
+    //float 4 bytes=32 bits
+    //double 8 bytes=64 bits
+    //bool 1 byte= 8 bits
+    //char 1 byte= 8 bits
+    
+    
+    
+    
+}
