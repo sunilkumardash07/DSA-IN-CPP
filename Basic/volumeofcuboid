@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main() {
+float l;
+float w;
+float h;
+ cout<<"Length of Cuboid= ";cin>>l;
+ cout<<"Width of Cuboid= ";cin>>w;
+ cout<<"Height of Cuboid= ";cin>>h;
+
+	
+	cout<<"Volume of Cuboid: "<<endl;
+
+
+float volume=l*w*h;
+	cout<<volume;
+}
