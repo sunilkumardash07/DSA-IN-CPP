@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main() {
+	float CP;
+	cout<<"Enter CP= ";
+	cin>>CP;
+	float SP;
+	cout<<"Enter SP= ";
+	cin>>SP;
+	float x=SP-CP;
+
+	if(x==0)cout<<"NO PROFIT NO LOSS= "<<x;
+	if(x>0)cout<<"PROFIT= "<<x;
+	if(x<0) cout<<"LOSS= "<<x*-1;
+	
+
+
+
+
+}
