@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+int main() {
+//Take n as input and print the following sequence 1n, 2n-1, 3n-2 ,..
+int n;
+cout<<"Enter The Number= ";
+cin>>n;
+
+
+for(int i=1;i<=n;i++){
+  if(i==1) cout<<i<<"n"<<" ";
+   else cout<<i<<"n"<<-(i-1)<<" ";
+    
+    
+}
+
+    
+    
+    
+    
+    
+    
+}
