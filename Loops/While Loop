@@ -1,0 +1,26 @@
+#include <iostream>
+
+using namespace std;
+int main() {
+	//While Loop--> for Loop ka Replacement--> Self explanatory hai while loop
+	for(int i=1; i<=10; i++) {
+		cout<<i<<" ";
+
+	}
+
+	cout<<endl;
+
+	int i=1;//Initialisation alag mein likha jayega
+	while(i<=10) {
+		cout<<i<<" ";
+		i++;
+	}
+
+
+
+
+
+
+
+
+}
