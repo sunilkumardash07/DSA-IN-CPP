@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+int main() {
+	int i;
+	while(i=10){// i ke container mein 10 hai--> True
+		cout<<i<<endl;// 10 print hua
+		i=i+1;//10 ki value 11 ho gyi //lekin jab firse loop hote time i ke container mein 10 aa gya firse 10 print hua
+	}
+	//INFINITE LOOP hai..!!
+}
