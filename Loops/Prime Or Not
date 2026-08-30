@@ -1,17 +1,25 @@
-#include<iostream>
+#include <iostream>
+#include <cmath>
 using namespace std;
 int main(){
     int n;
-    cout<<"Enter a number: ";
+    cout<<"Enter The Number= ";
     cin>>n;
-    bool flag = false; // false means prime
-    for(int i=2;i*i<=n;i++){
-        if(n%i == 0){ // factor mil gaya except 1 and n
-            flag = true;
-            break;
-        }
+    int count=0;
+    for(int i=1;i<=n;i++){
+        if(n%i==0)count++;
+        
     }
-    if(n==1) cout<<"Neither Prime nor composite";
-    else if(flag==true) cout<<"Composite Number";
+    cout<<"Number of Factors= ";
+    cout<<count<<endl;
+    bool x= false;//false means prime here
+    for (int i =2; i<=sqrt(n); i++){
+        if(n%i==0) x=true;
+        break;
+    }
+    if (n==1)cout<<"Neither Prime nor Composite";
+    else if(x==true)cout<<"Composite Number";
     else cout<<"Prime Number";
-}
+    
+ 
+}   
