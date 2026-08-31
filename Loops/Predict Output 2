@@ -6,7 +6,7 @@ int main() {
 		cout<<"Hello"<<" ";//apne limit tak print but finite
 	}
 	cout<<endl<<endl;
-	
+	//While mein float use nhi hoti lekin try kr skte ho
 	float m = 10;
 	while(m/=2) {
 		cout<<"Hello"<<" ";//apne limit tak print but not infinite
