@@ -1,0 +1,43 @@
+#include<iostream>
+using namespace std;
+int main() {
+	double t = 10;
+	while(t/=2) {
+		cout<<"Hello"<<" ";//apne limit tak print but finite
+	}
+	cout<<endl<<endl;
+	
+	float m = 10;
+	while(m/=2) {
+		cout<<"Hello"<<" ";//apne limit tak print but not infinite
+	}
+	cout<<endl<<endl;
+	
+	int n = 10;
+	while(n/=2) {
+		cout<<"Hello"<<" ";//3 times print
+	}//first time 5-->5
+	//second time 2-->int=2
+	//third time 1-->1
+	//fourth time 0.5--> int =0
+	
+	
+	cout<<endl<<endl;
+	int x=4;
+	while(x--) {
+		cout<<"Hello"<<endl;//4 times printed becoz post decrement
+	}
+	cout<<endl;
+	int y=4;
+	while(--y) {
+		cout<<"Hello"<<endl;//3 times printed becoz pre decrement
+	}
+
+
+
+
+
+
+
+
+}
