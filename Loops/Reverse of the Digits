@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+int main() {
+	//Ques. Print Reverse of a Number
+	int n;
+	cout<<"Enter The Number= ";
+	cin>>n;
+	cout<<"Reverse of The Number= ";
+
+	// 	while(n!=0) {
+	// 		int x=n%10;
+	// 		cout<<x;
+	// 		n/=10;
+
+
+	// 	}// ye method se bhi sahi hai
+	int x=0;
+	while(n!=0) {
+		x*=10;
+		x+=(n%10);
+		n/=10;
+	}
+	cout<<x;
+
+}
