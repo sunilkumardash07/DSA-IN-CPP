@@ -1,13 +1,19 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 int main(){
+    //Ques. Print sum of digits of Number
     int n;
+    cout<<"Enter The Number= ";
     cin>>n;
-    int sum = 0;
-    while(n != 0){
-        int lastDigit = n%10;
-        sum += lastDigit;
-        n /= 10;
-    }
+    cout<<"Sum of The Digits= ";
+    int sum=0;
+    for(;n!=0;){
+        int lastdigit=n%10;
+        sum+=lastdigit;
+        n/=10;
+        
+  }
     cout<<sum;
     
+    
+}
