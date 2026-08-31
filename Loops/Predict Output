@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+int main() {
+	//Predict The Output
+	int x=4,y=0,z;
+	while(x>=0) {
+		x--;
+		y++;
+		if(x==y)
+			continue;
+		else cout<<x<<" "<<y<<endl;
+	}//Its not an Infinite Loop.
+	cout<<endl;
+	//Ques.
+	int a=4,b=0,c;
+	while(a>=0) {
+		if(a==b)
+			break;
+		else cout<<a<<" "<<b<<endl;
+		a--;//ye aur niche wala line else mein nhi jaa rha agar bracket hota tab hota //aur else mein bina bracket singe line ko consider ko kiya jaat hai
+		b++;
+	}//2==2 hone ke baad break toh loop tut ho gya
+
+	cout<<endl;
+
+
+}
