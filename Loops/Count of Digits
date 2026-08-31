@@ -1,13 +1,27 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main(){
-    int n;
-    cin>>n;
-    int count = 0;
-    if(n==0) count++;
-    while(n != 0){
-        n /= 10;
-        count++;
-    }
-    cout<<count;
+int main() {
+	//Ques. Count no. of digits of a Number
+
+	int n;
+	cout<<"Enter The Number= ";
+	cin>>n;
+	cout<<"No. of Digits= ";
+	int count=0;
+	if(n==0) count++;
+	for(; n!=0;) {
+		n/=10;
+		count++;
+
+		// while(n!=0) {
+		// n/=10;
+		// count++;
+
+	}
+
+	cout<<count;
+
+
+
+
 }
