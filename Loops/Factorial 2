@@ -6,7 +6,7 @@ int main() {
 	cout<<"Enter The Number= ";
 	cin>>n;
 	cout<<"Factorial Of the Number= ";
-	int x=1;
+	long long x=1;//jyada bada no. store kr payega
 	while(n>1){
 	    x*=(n);
 	    n--;
