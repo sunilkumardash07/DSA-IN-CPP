@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main() {
+	//Ques. Factorial of number
+	int n;
+	cout<<"Enter The Number= ";
+	cin>>n;
+	cout<<"Factorial Of the Number= ";
+	int x=1;
+	while(n>1){
+	    x*=(n);
+	    n--;
+	    
+	}
+	cout<<x;
+
+}
