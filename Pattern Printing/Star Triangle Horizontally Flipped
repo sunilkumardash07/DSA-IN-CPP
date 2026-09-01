@@ -6,8 +6,8 @@ int main() {
 	cout<<"Enter Number of Rows= ";
 	cin>>n;
 // Dry run krke concept clr kro..
-	for(int i=n; i>=1; i--) {
-		for(int j=n+1-i; j<=n; j++) {
+	for(int i=1; i<=n; i++) {
+		for(int j=1;j<=n+1-i; j++) {//i+j=n+1
 			cout<<"*"<<" ";
 
 		}
