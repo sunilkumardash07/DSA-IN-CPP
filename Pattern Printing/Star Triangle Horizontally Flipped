@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main() {
+	//Star Triangle Horizontally Flipped
+	int n;
+	cout<<"Enter Number of Rows= ";
+	cin>>n;
+// Dry run krke concept clr kro..
+	for(int i=n; i>=1; i--) {
+		for(int j=n+1-i; j<=n; j++) {
+			cout<<"*"<<" ";
+
+		}
+		cout<<endl;
+	}
+
+
+}
