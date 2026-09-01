@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main() {
+	//Alphabet Triangle Horizontally Flipped
+	int n;
+	cout<<"Enter Number of Rows= ";
+	cin>>n;
+	// Dry run krke concept clr kro..
+	for(int i=1; i<=n; i++) {
+		for(int j=1; j<=n+1-i; j++) { //i+j=n+1
+			cout<<(char)(j+96)<<" ";
+
+		}
+		cout<<endl;
+	}
+
+
+}
