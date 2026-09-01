@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 int main() {
-	//Number Square
+	//Number Square(same row)
 	int n;
 	cout<<"Enter The Number= ";
 	cin>>n;
