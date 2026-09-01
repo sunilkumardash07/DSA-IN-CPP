@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 int main() {
-	//Star Rectangle(inc in column as per row)
+	//Star Triangle(inc in column as per row)
 	int n;
 	cout<<"Enter Number of Rows= ";
 	cin>>n;
