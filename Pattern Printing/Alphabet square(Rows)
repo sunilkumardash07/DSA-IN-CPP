@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main() {
+	//Alphabet Square(same rows)
+	int n;
+	cout<<"Enter The Number= ";
+	cin>>n;
+	for(int i=1; i<=n; i++) {
+		for(int j=65; j<=n+64; j++) {
+			cout<<(char)j<<" ";//yahan j=1 rkhke (char)j+64 bhi likh skte hain...
+
+		}
+		cout<<endl;
+	}
+
+
+
+}
