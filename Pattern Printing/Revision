@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main(){
+    //REVISION
+    //Rectangle for rows(i=1 to m) for column(j=1 to n)
+    //Square for rows(i=1 to n) for column(j=1 to n)
+    //Triangle  for rows(i=1 to n) for column(j=1 to i)
+    //Inverted Triangle  for rows(i=1 to n) for column(j=1 to n+1-i)
+    //Print j--> for 1,2,3...A,B,C...
+    //Print i--> 1 1 1... A A A...
+}
