@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main() {
+	//Scope Of variable
+	
+int i;
+	for(i=1; i<=4; i++) {
+		cout<<"Hello"<<endl;
+	}
+	cout<<i;//it is declared outside the loop so no error.
+
+
+
+}
