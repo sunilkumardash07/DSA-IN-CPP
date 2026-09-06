@@ -1,0 +1,38 @@
+#include <iostream>
+using namespace std;
+int main() {
+	//Bridge
+	int n;
+	cout<<"Enter The Number= ";
+	cin>>n;
+
+	
+	//Straight line + n-1 Triangle loop + space pyramid+ n-1 vertically flipped Traingle
+
+	for(int i=1; i<=2*n-1; i++) {
+		cout<<"* ";
+	}
+	cout<<endl;
+
+	for(int i=1; i<=n-1; i++) {
+		for(int j=1; j<=n-i; j++) {
+			cout<<"* ";
+		}
+
+		for(int j=1; j<=2*i-1; j++) {
+			cout<<"  ";
+
+		}
+
+
+		for(int j=1; j<=n-i; j++) {
+			cout<<"* ";
+		}
+		cout<<endl;
+
+	}
+
+
+
+
+}
