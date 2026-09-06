@@ -1,0 +1,114 @@
+#include <iostream>
+using namespace std;
+int main() {
+	//Diamond
+	//Pyramid + Inverted Pyramid
+	int n;
+	cout<<"Enter The Number= ";
+	cin>>n;
+		//Method-1
+
+			for(int i=1;i<=n;i++){
+			    for(int j=1;j<=n-i;j++){
+			        cout<<"  ";
+			    }
+			    for(int j=1;j<=2*i-1;j++){
+			        cout<<"* ";
+
+			    }
+
+			    cout<<endl;
+			}
+
+				for(int i=n-1; i>=1; i--) {
+
+					for(int j=1; j<=n-i; j++) {
+						cout<<"  ";
+					}
+
+
+
+
+					for(int j=1; j<=2*i-1; j++) {
+						cout<<"* ";
+
+					}
+
+					cout<<endl;
+
+				}
+
+				cout<<endl<<endl;
+
+		// 	//METHOD-2;
+		// 	//Introduce variables
+
+		int unsp=n-1, unst=1;
+		for(int i=1; i<=n; i++) {
+			for(int j=1; j<=unsp; j++) {
+				cout<<"  ";
+			}
+
+			for(int j=1; j<=unst; j++) {
+				cout<<"* ";
+			}
+			unsp--;
+			unst+=2;
+			cout<<endl;
+		}
+
+
+
+
+
+
+
+
+		int lnst=2*n-3, lnsp=1;
+		for(int i=1; i<=n; i++) {
+			for(int j=1; j<=lnsp; j++) {
+				cout<<"  ";
+			}
+			for(int j=1; j<=lnst; j++) {
+				cout<<"* ";
+
+			}
+
+
+
+			lnst-=2;
+			lnsp++;
+			cout<<endl;
+
+		}
+		
+			cout<<endl<<endl;
+
+	//METHOD-3
+	//Ek hi baar mein loop chalenge
+
+	int nst=1, nsp=n-1;
+	for(int i=1; i<=2*n-1; i++) {
+		for(int j=1; j<=nsp; j++) {
+			cout<<"  ";
+		}
+		for(int j=1; j<=nst; j++) {
+			cout<<"* ";
+		}
+
+		if(i>=n) {
+			nst-=2;
+			nsp++;
+		}
+
+		else {
+			nst+=2;
+			nsp--;
+		}
+		cout<<endl;
+	}
+
+
+
+
+}
