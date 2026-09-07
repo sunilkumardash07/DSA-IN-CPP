@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+void sumit () {
+	cout<<"Hello Sumit!"<<endl;
+
+}
+void arjun () {
+	sumit();
+	cout<<"Hello Arjun!"<<endl;
+}
+
+void suraj () {
+	cout<<"Hello Suraj!"<<endl;
+	arjun();
+}
+
+
+
+int main() {
+	suraj();//Najariya
+
+	cout<<endl<<endl;
+
+}
