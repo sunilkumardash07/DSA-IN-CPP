@@ -1,0 +1,42 @@
+#include <iostream>
+using namespace std;
+void fun () {
+    cout<<"Hello World!"<<endl;
+}
+    void sumit () {
+    cout<<"Hello Sumit!"<<endl;
+    
+    }   
+    void arjun () {
+    cout<<"Hello Arjun!"<<endl;
+    sumit();
+    }   
+    void krishna () {
+    cout<<"Hello Krishna!"<<endl;
+    arjun();
+    }   
+    void suraj () {
+    cout<<"Hello Suraj!"<<endl;
+    krishna();
+    }	
+	
+//in functions ko call lgana pdta hai
+
+int main() {
+    fun();//cl lag gya
+    cout<<"Hello Sunil"<<endl;
+    fun();//cl lga diya
+    
+    krishna();//Najariya 
+    // suraj();
+    // sumit();
+    // arjun();
+    
+    cout<<endl<<endl;
+	
+}//Ye main function apne aap se chlta hai
+//main khatam ----> function khatam
+//main sabse pehle chlt hai
+//main ke cl lgane par dusre functions chalenge
+//function cl lgane wale function upar honi chahiye
+//main ko kabhi bhi cl nhi lga skte
