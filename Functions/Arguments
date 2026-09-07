@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+void minOfTwo (int a, int b){//These are parameters //isTareekeKoCamelCaseKehteHein (for variables )//IsTareekeKoPascalCaseKehteHein
+	if(a<b)cout<<a<<" is smaller than "<<b<<"."<<endl;
+	else if(a==b)cout<<"Both "<<a<<" and "<<b<<" are equal."<<endl;
+	else cout<<b<<" is smaller than "<<a<<"."<<endl;
+}
+
+
+
+int main() {
+minOfTwo(71,7);//These are arguments
+
+}
