@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+void fun(int a) {
+	cout<<a<<endl;
+	if(a>20) return;//20 ke baad function khatam
+	cout<<a*a<<endl;
+}
+int main() {
+	//RETURN KEY WORD
+	//return;---->Function ko khatam, sort of break but not break
+	fun(21);
+	fun(20);
+	fun(17);
+
+}
