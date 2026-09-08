@@ -1,0 +1,37 @@
+#include <iostream>//for input and output
+#include <cmath>// maths ke liye use hota hai//kuch compilers pe jarurat nhi padti hai
+using namespace std;
+// int max(int a, int b){
+//     if(a>b)return a;
+//     else return b;
+// }
+
+int max2(int a, int b, int c) {
+	if(a>=b && a>=c) return a;
+	else if(b>=c && b>=a)return b;
+	else return c;
+}
+int main() {
+	//INBUILT FUNCTIONS
+	cout<<max(23,34)<<endl;//backstory
+
+	cout<<min(35,56)<<endl;
+
+	// cout<<min(51,78,12);//error--->do se jyada arguments ke liye ye function bna nhi hai , agar teen likhna hai toh khud function bnao.
+
+	cout<<max2(54,89,90)<<endl;
+
+	cout<<pow(2.6,-3.1)<<endl;//pow can take double values
+	//if base is negative then exp should be positive integer else complex number
+
+	cout<<sqrt(3.14)<<endl;//input as a double;return as a double (inbuilt)
+
+	cout<<cbrt(10.1)<<endl;//input as a double;return as a double(inbuilt)
+
+	cout<<abs(-2.3)<<endl;//input as a double;return as a double(inbuilt)
+
+
+
+
+
+}
