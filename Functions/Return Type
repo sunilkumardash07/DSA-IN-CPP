@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int product(int a, int b) {//void ke alawa sabhi mein kuch na kuch integer/value return krna pdega(compulsory)
+	return a*b;//return-->function khatam and function ka value 44 ho gya.
+
+}
+int main() {
+	//RETURN TYPE
+	//int,char,bool,float,long long...( all dataypes) + also void
+	//void ke alawa function ki ek value hota hai
+	product(4,11);//nothing happens only called, evaluated and value stored nothing else
+	cout<<product(4,11)<<endl;//cl ko print kr rhe hein//product(4,11) ki value 44 hai jo print ho gyi
+	int x=product(3,11);
+	cout<<x;
+// 	return 0;//ye by default compilers mein ho jata hai toh likhna jaruri nhi hai.
+}
