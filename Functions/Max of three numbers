@@ -1,0 +1,16 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+//Ques. Find the max of three numbers using builtin functions.
+int main() {
+	int a,b,c;
+	cout<<"Enter The Number(a)= ";
+	cin>>a;
+	cout<<"Enter The Number(b)= ";
+	cin>>b;
+	cout<<"Enter The Number(c)= ";
+	cin>>c;
+	cout<<"Maximum Number= "<<max(a,max(b,c));
+
+
+}
