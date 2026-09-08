@@ -11,5 +11,7 @@ void minOfTwo (int a, int b){//These are parameters //isTareekeKoCamelCaseKehteH
 
 int main() {
 minOfTwo(71,7);//These are arguments
+//Arguments(values) are actual parameters.
+//Parameters(variables) are formal parameters.
 
 }
