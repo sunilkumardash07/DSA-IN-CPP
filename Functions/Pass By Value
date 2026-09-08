@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+//Pass By Value--->Important Concept
+void change(int x) {//int x 10 hua
+	x=20;//change x ka value 10 ho gya
+	//this x is local to change
+
+}
+
+int change2(int x) {
+	x=20;//change2 x ka value 10 ho gya
+	//this x is local to change2
+	return x;
+}
+int main() {
+	int x=10;
+	change(x);//argument humesha ek value jataa hai x nhi.. 10 gy hai
+	cout<<x<<endl;//ye main ka x print hua..
+	//this x is local to main
+	//cout<<change(x);//ERROR--->void ke case mein esa nhi ho skta
+	cout<<change2(x);//ye function ka x print hua
+
+}
