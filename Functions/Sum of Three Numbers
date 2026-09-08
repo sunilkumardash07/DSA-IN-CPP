@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+void sumOfThree (int a, int b, int c) {
+	cout<<"Sum of Three Numbers= "<<a+b+c<<endl;
+
+}
+
+
+
+int main() {
+	sumOfThree(70,-45,3);
+
+}
