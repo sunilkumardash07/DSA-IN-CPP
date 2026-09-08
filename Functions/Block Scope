@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+//Block Scope
+int main() {
+	int i;
+	for(i=1; i<=4; i++) {
+		cout<<i<<", ";//j is local for "for" loop
+	}
+
+	//cout<<i;//ERROR
+
+	cout<<endl;
+	if(5<7) {
+		int x=10;
+		cout<<x<<endl;//x is local for "if" loop
+	}
+	//cout<<x;//ERROR
+
+}
