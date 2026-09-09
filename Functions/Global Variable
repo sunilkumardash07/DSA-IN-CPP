@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+//GLOBAL VARIABLES
+int x= 100;//Global Variable
+void fun() {
+	cout<<x<<endl;//no local---->so Global
+	x=200;//x ka value 200 ho gya
+	cout<<x<<endl;//after value changed
+	int x=1;//this x is local to fun
+	cout<<x<<endl;//ye local x hai....
+
+}
+void end() {
+	cout<<x<<endl;//global x ka value 200 hai
+}
+int main() {
+	cout<<x<<endl;//pehle check hua ki koi local variable hai kya.. fir check hua global variable
+	int x=7;//this x is local to main..
+	cout<<x+5<<endl;//local x ka value +5 hua
+	fun();//cl gya aur void ka function chla aur khatam hua aur global x ka value 200 ho gya hai..
+	cout<<x<<endl;//local x of main print hua
+	end();
+
+
+}
