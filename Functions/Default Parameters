@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+//Default Parameters
+void fun(int age=18) {//Here 18 is default for age-->If argument is not given then this works
+	cout<<"My Age is "<<age<<"."<<endl;
+}
+int main() {
+	fun();//Agar argument nhi diye toh-->default
+	fun(21);//Argument given-->age ka value 21 ho gya
+}
