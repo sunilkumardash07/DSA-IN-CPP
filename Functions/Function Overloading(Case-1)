@@ -7,7 +7,7 @@ void fun() {
 void fun(int x) {//If we give default values here then there will be ERROR
 	cout<<"Good Morning"<<endl;
 }
-void fun(int x=2,int y=4) {//If we give default values here then there will be ERROR
+void fun(int x,int y) {//If we give default values here then there will be ERROR
 	cout<<"Good Morning Everyone"<<endl;
 }
 
