@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-//Function Overloading(case-2)
+//Function Overloading(case-2)---->Datatypes of Parameters
 void display( int x ) {
 	cout<<"Integer= "<<x<<endl;
 }
