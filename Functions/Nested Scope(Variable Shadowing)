@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+//NESTED SCOPE(Variable Shadowing)
+int main() {
+	int x=89;
+	{
+		int x=100;//Introduced a new variable
+		cout<<x<<endl;
+	}
+	cout<<x<<endl;
+
+	{
+		x+=78;//but here the value of x is changed which is introduced in main
+
+	}
+	cout<<x<<endl;
+}
