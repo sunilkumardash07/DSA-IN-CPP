@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+//LOCAL vs GLOBAL VARIABLES
+int x= 10;//Global Variable
+void change() {
+	x=45;//Global x change
+}
+int main() {
+	cout<<x<<endl;//Global Variable
+	int x=80;//Local Variable
+	cout<<x<<endl;//Local Variable
+	change();//cl lga aur change function khatam
+	cout<<x<<endl;
+
+
+}
