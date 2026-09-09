@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+//Default Parameters-2
+
+void power(int base, int exponent=2) {
+	int ans=1;
+	for (int i=0; i<=exponent; i++) {
+		ans*=base;
+	}
+	cout<<ans<<endl;
+
+}
+int main() {
+	power(5);//ek argument hum diye aur dusra value default ho gya
+	power(5,3);//do arguments hum de diye
+
+}
