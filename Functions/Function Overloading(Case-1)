@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+//Function Overloading(Case-1)
+void fun() {
+	cout<<"Hi"<<endl;
+}
+void fun(int x) {//If we give default values here then there will be ERROR
+	cout<<"Good Morning"<<endl;
+}
+void fun(int x=2,int y=4) {//If we give default values here then there will be ERROR
+	cout<<"Good Morning Everyone"<<endl;
+}
+
+int main() {
+	fun();//koi value nhi tha toh bina parameter wale mein chla gya warna ERROR ho jata
+	fun(0);//single wale mein gya kyonki ek parameter tha warna ERROR ho jata
+	fun(9,2);//double wale mein gya kyonki do parameter tha warna ERROR ho jata
+
+
+}
