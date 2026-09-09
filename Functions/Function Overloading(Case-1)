@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-//Function Overloading(Case-1)
+//Function Overloading(Case-1)--->Number of Parameters
 void fun() {
 	cout<<"Hi"<<endl;
 }
