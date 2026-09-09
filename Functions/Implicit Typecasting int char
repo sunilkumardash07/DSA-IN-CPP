@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+//Implicit Typecasting int char
+void fun( char x ) {
+	cout<<"Hi"<<" "<<x<<endl;
+}
+
+int main() {
+	fun(85);
+
+}
