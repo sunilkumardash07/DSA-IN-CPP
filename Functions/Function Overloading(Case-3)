@@ -10,5 +10,7 @@ void fun(char ch, int x) {
 
 int main() {
 	fun('a',11);
-  fun(121,'Z');
+	fun(121,'Z');
+	// 	fun(65,97);//ERROR char can also take integer therefore it gets confused..
+	// fun(65);//ERROR
 }
