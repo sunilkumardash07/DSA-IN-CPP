@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+//POINTERS(exclusive to cpp and c) IN C++ ---> VERY IMPORTANT CONCEPT
+//Address of Variable
+int main() {
+int x=7;
+cout<<&x<<endl;// 0x7fffdf71c89c(Hexadecimal number), 0x7fff12af478c, 0x7ffe6792ca6c.... Address changed on running--->Memory location change
+//Bytes ka address hai yeh
+int y=10;
+cout<<&y<<endl;// 0x7ffe6792ca6c
+//Address always different of different variables
+    
+    
+}
