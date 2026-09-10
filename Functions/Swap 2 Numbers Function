@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+//Swap 2 Numbers Function
+//Backstory
+// void swap(int& a , int& b){//these a and b are local to swap so we have to use alias operator
+//     int temp=a;
+//     a=b;
+//     b=temp;//these are different from main a and b
+// }
+int main() {
+	int a,b;
+	cout<<"Enter Two Numbers= ";
+	cin>>a>>b;
+	cout<<"Without Swapping= ";
+	cout<<a<<" "<<b<<endl;
+	swap(a,b);//values are passed not a and b which are local to main after using alias operator-->a and b is passed by reference
+	//It is an inbuilt function
+	cout<<"Number Swapped= ";
+	cout<<a<<" "<<b<<endl;
+
+
+
+}
