@@ -1,0 +1,8 @@
+#include <iostream>
+using namespace std;
+//Null Pointers--->Good Practice of using Pointers
+int main() {
+	int* ptr= NULL;
+	cout<<ptr<<endl;
+
+}
