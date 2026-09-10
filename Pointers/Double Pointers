@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+//Double Pointers--->used to store address of single pointer
+int main() {
+	int* p1;//can only store address of int
+	int* p2;//can only store address of int
+	// 	p1=&p2;//ERROR--->Here we cannot store address of pointer in a location which is meant for storing address of int
+	int x=10;
+	int* p3=&x;//Pointer to store address of int
+	int** p4=&p3;//Double Pointer to store address of a pointer
+	cout<<&x<<endl;
+	cout<<p3<<endl;
+
+	cout<<&p3<<endl;
+	cout<<p4<<endl;
+
+	int***p5=&p4;//Triple Pointer to store address of Double Pointer
+	cout<<&p4<<endl;
+	cout<<p5<<endl;
+	//Aise Chlta rhega
+}
