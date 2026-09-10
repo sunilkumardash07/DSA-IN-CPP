@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+//Syntax Issue
+int main() {
+	int x=5;
+	int y=2;
+	int* p1=&x;
+	int* p2=&y;
+// 	int* p1=&x, p2=&y;//ERROR
+//int* p1=&x, *p2=&y;// Aise likh skte hain lekin single line mein likhne se koi confusion nhi hoga
+}
