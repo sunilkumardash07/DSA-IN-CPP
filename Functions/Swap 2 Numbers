@@ -1,0 +1,39 @@
+#include <iostream>
+using namespace std;
+//Swap 2 Numbers
+int main() {
+	int a,b;
+	cout<<"Enter Two Numbers= ";
+	cin>>a>>b;
+	cout<<"Without Swapping= ";
+	cout<<a<<" "<<b<<endl;
+
+	// 	a==b;//a b ho gya equality
+	// 	b==a;//b a ho gya equality--->Indirectly a same hai
+	// 	cout<<a<<" "<<b<<endl;//Number Swap nhi hua
+
+	// 	a=b;//a ke bucket mein b aagya
+	// 	b=a;//b ke bucket mein a aagya---->indirectly b aagya---> do nos. ki value ek hi hai..
+	// 	cout<<a<<" "<<b<<endl;//same value
+
+	//Introduce New variables
+	int temp=a;//temp mein a ki value stored
+	a=b;//a mein b aa gya
+	b=temp;//b mein temp(a)ki value aa gyi
+	cout<<"Number Swapped(1st)= ";
+	cout<<a<<" "<<b<<endl;//Numbers Swapped
+
+	//If Extra Variable is not allowed(Mathematical Approach)
+	a=a+b;
+	b=a-b;//(a+b)-b b=a ho gya
+	a=a-b;//(a-b)-a a=b ho gya
+	cout<<"Number Swapped(2nd)= ";
+	cout<<a<<" "<<b<<endl;//Number Swapped
+
+	a=(a+b)-(b=a);//Upar ka one liner Expression--->From left..
+	//b a ho gya, a ka value a+b-a ho gya =b
+	cout<<"Number Swapped(3rd)= ";
+	cout<<a<<" "<<b<<endl;//Numbr Swapped
+
+
+}
