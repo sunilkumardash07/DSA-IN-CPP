@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+//Pointer-->
+//Format-->data_type*pointer_name;
+//e.g. float*y can store address of float
+//e.g. double*y can store address of double
+int main() {
+	int a=5;
+	int* ptr=&a;//int* is a datatype which can store int address, ptr is a variable in which address of a is stored
+	cout<<&a<<endl;
+	cout<<ptr<<endl;//both are equal
+	cout<<&ptr<<endl;//ye ptr variable ka address hai jo ki alag hai
+
+}
