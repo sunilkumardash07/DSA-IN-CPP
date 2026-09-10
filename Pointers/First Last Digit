@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+//Function to find out first and last digit of a number without returning and cout anything
+void ldigit(int n,int* l ) {
+	*l= n%10;
+}
+void fdigit(int n,int* f) {
+	while(n>=10) {
+		n/=10;
+	}
+	*f=n;
+}
+
+int main() {
+	int n;
+	cout<<"Enter The Number= ";
+	cin>>n;
+	int f,l;
+	ldigit(n, &l);
+	fdigit(n, &f);
+	cout<<"The First Digit= "<<f<<endl;
+	cout<<"The Last Digit= "<<l<<endl;
+
+
+
+
+
+}
