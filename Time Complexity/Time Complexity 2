@@ -1,0 +1,75 @@
+#include <iostream>
+using namespace std;
+int main() {
+	//Q. Find the Time Complexity
+	int n;
+	cout<<"Enter The Number: ";
+	cin>>n;
+	for(int i=1; i<=10; i++) {
+		cout<<"Sunil";
+	}//TC= O(10n^0)=O(1) --> constant time Complexity
+	cout<<endl<<endl;
+	int m;
+	cout<<"Enter The Number: ";
+	cin>>n;
+
+	//Q. Calculate the TC
+
+	for (int i=1; i<=m; i++) {
+		cout<<"Hello";
+	}
+
+	for (int i=1; i<=n; i++) {
+		cout<<"Hi";
+	}
+	//O(m+n) or O(max{m,n}) but this representation is not much accurate.
+	cout<<endl<<endl;
+
+	//Q. Calculate the TC
+
+	for (int i=1; i<=m; i++) {
+		for (int j=1; j<=n; j++) {
+			cout<<"Hi";
+		}
+
+	}
+	//TC = O(m*n)
+	cout<<endl<<endl;
+
+	//Q. Calculate the TC
+
+	for (int i=1; i<=n; i++) {
+		for (int j=1; j<=n; j++) {
+			cout<<"Hi";
+		}
+
+	}
+	//TC = O(n^2) ----> Quadratic time Complexity
+	//We cannot create Quadratic to linear
+	// O(2n^2-7n+8) is approximately equal to O(n^2)
+	cout<<endl<<endl;
+
+	//Q. Calculate the TC
+
+	for (int i=1; i<=n; i++) {
+		for (int j=1; j<=i; j++) {
+			cout<<"Hi";
+		}
+
+	}
+	//TC= O((n^2)/2) ---> Triangle
+	//Second method is in notes ==> n(n+1)/2 = (n^2)/2 + n/2(this is the real nos. of iterations) is approximately equal to O(n^2)
+	cout<<endl<<endl;
+
+	//Q. Calculate the TC
+
+	for (int i=1; i*i<=n; i++) {
+		cout<<"Sunil";
+	}
+	//TC = O(sqrt(n))
+	cout<<endl<<endl;
+	
+// 	O(sqrt(n)) > O(n) > O(n^2) > O(n^3)  ==> Time
+
+
+}
