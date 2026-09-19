@@ -1,0 +1,92 @@
+#include <iostream>
+using namespace std;
+int main() {
+	//Time Complexity
+	int n;
+	cout<<"Enter The Number: ";
+	cin>>n;
+	//Q. Calculate the TC
+
+	for (int i=1; i<=n; i*=2) {
+		cout<<"Hello";
+	}
+	//Geometric Progression
+	//TC = O(x+1)
+	// n=2^x
+	//x=log2(n)
+	//TC = O(log2(n))
+	//logn/log2= 1/log2 is a constant
+	//TC= O(log2(n) is approximately equal to O(log n)
+	cout<<endl<<endl;
+
+	//Q. Calculate the TC
+
+	for (int i=1; i<=n; i+=i) {
+		cout<<"Hello";
+	}
+	//Same as above question.
+	//i+=i <==> i*=2
+	//TC = O(log n)
+	cout<<endl<<endl;
+
+	//Q. Calculate the TC
+
+	for (int i=1; i<=n; i*=3) {
+		cout<<"Hello";
+	}
+	//TC = O(log3(n)) is approximately equal to O(log n)
+	cout<<endl<<endl;
+
+	//Q. Calculate the TC
+
+	for (int i=1; i<=n; i*=2) {
+		for(int j=1; j<=n; j++) {
+			cout<<"Hello";
+		}
+
+	}
+	//TC = O(nlogn)
+	cout<<endl<<endl;
+
+
+	//In case of nested loops
+
+	// 	for(int i=1 to n){
+	// 	    for (int j=1 to m){
+	// 	        for (int k=1 to p){
+
+	// 	        }
+	// 	    }
+	// 	}
+
+	//TC = O(nmp) --> it is only valid if i,j,k are independent of each other
+	cout<<endl<<endl;
+
+	//Q. Calculate the TC
+
+	for (int i=1; i<=n; i*=2) {
+		for(int j=1; j<=n; j*=2) {
+			cout<<"Hello";
+		}
+
+	}
+	//TC = O((log n)^2)
+
+	// log n is fastest
+	//2^n is the slowest
+	// O(log n) > O(sqrt n) > O(n) > O(nlog n) > O(n^2) > O(n^3) > O(2^n)
+	cout<<endl<<endl;
+
+	//Q. Calculate the TC
+
+	for (int i=1; i<=n; i*=2) {
+		for(int j=1; j<=i; j++) {
+			cout<<"Hello";
+		}
+
+	}
+	//TC = O(sum of GP)
+	//TC = O(2n-1)
+	//TC = O(n) approximately
+
+}
