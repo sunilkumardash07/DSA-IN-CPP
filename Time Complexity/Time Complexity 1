@@ -1,0 +1,39 @@
+#include <iostream>
+using namespace std;
+int main() {
+	//Notations for different types of time complexity O(n) ohm(n) theta(n)
+	int n;
+	cout<<"Enter The Number: ";
+	cin>>n;
+	//Q. Calculate the TC
+	for (int i=1; i<=n; i++) {
+		cout<<"Hello";
+	}
+	//TC = O(n)
+	cout<<endl<<endl;
+
+	//Q. Calculate the TC
+	for (int i=1; i<=n; i+=2) {
+		cout<<"Hello";
+	}
+	//TC = O(n/2) is approximately equal to O(n)
+	//O(kn) is approximately equal to O(n)
+	cout<<endl<<endl;
+
+	//Q. Calculate the TC
+	for (int i=1; i<=n*2; i++) {
+		cout<<"Hello";
+	}
+	//TC = O(2n) is approximately equal to O(n)
+	cout<<endl<<endl;
+
+	//Q. Calculate the TC
+	for (int i=1; i<=n-7; i++) {
+		cout<<"Hello";
+	}
+	//TC = O(n-7) is approximately equal to O(n)
+	//TC = O(n+-k) is approximately equal to O(n)
+	cout<<endl<<endl;
+
+
+}
