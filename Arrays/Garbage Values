@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+int main() {
+	int arr[4];
+	//ek container 4 value store krne wala bn gya aur cpp mein by default usme kuch garbage values hai
+	cout<<arr[0]<<endl;//Garbage Values --> jitni baar run kroge utna different value aayega
+	cout<<arr[0]<<endl;
+	cout<<arr[2]<<endl;
+	cout<<arr[3]<<endl;
+}
