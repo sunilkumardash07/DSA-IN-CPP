@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+int main(){
+    //Sum of Elements of Array
+    int n;
+    cout<<"Enter the Number of Elements In Array: ";
+    cin>>n;
+    float arr[n];
+    
+    for(int i=0;i<=n-1;i++){
+        cout<<"Enter the number("<<i<<")= ";
+        cin>>arr[i];
+    }
+    cout<<endl;
+    
+    float sum = 0;
+    
+    for(int i=0;i<=n-1;i++){
+        sum+=arr[i];
+    }
+    
+    cout<<"Sum of the Elements= "<<sum;
+    
+}
