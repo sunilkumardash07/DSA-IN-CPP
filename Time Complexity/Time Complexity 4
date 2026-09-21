@@ -1,0 +1,113 @@
+#include <iostream>
+using namespace std;
+int main() {
+	//Time Complexity 4
+	int n;
+	cout<<"Enter The Number: ";
+	cin>>n;
+	for(int i=1; i*i<=n; i*=2) {
+		cout<<"Hello";
+	}
+	//TC = O(log(sqrt n)) is approximately equal to O(log n)
+	cout<<endl<<endl;
+
+	for(int i =0; i<n; i++) {
+		for(int j=0; j<n; j++) {
+			cout<<i<<" ";
+			break;//Actually the j loop is break..not the i loop
+			//break breaks the loop which is in it but return breaks the whole loop
+		}
+	}
+	//print = 0,1,2,3,....n-1
+	//TC = O(n)
+	cout<<endl<<endl;
+
+	for(int i=0; i<n; i++) {
+		for(int j=0; j<i; j++) {
+			if(j==0)
+				break;
+
+		}
+	}
+	//TC = O(n)
+	cout<<endl<<endl;
+
+	int k=0;
+	for(int i=0; i<n; i++) {
+		while(k<n) {
+			cout<<k<<" ";
+			k++;
+		}
+	}
+	// 	jab i=1 hai j ka value n tak print hua fir i=1 hua tab tak j=n ho chuka hai
+	//TC = O(n)
+
+	//Agar j loop ke andar likha hota toh O(n^2) hota
+	// 	for(int i=0;i<n;i++){
+	// 	    int j=0;
+	// 	    while(j<n){
+	// 	        cout<<j<<" ";
+	// 	        j++;
+	// 	    }
+	// 	}
+	// TC = O(n^2)
+	cout<<endl<<endl;
+
+	for(int i=0; i<n; i++) {
+		for(int j=0; j<n; j++) {
+			continue;
+		}
+	}
+	//TC = O(n^2)
+	cout<<endl<<endl;
+
+	for(int i=1; i<=n; i++) {
+		if(i>4)continue;
+		for(int j=1; j<=n; j++) {
+			cout<<"*";
+		}
+	}
+	//TC =O(5n) is approximately equal to O(n)
+	cout<<endl<<endl;
+
+	for(int i=0; i<n; i++) {
+		for(int j=0; j<5; j++) {
+			cout<<i;
+		}
+	}
+	//TC =O(5n) is approximately equal to O(n)
+	cout<<endl<<endl;
+
+	int count =0;
+	for(int i=0; i<n; i++) {
+		for(int j=i; j<=i; j++) {
+			count++
+		}
+	}
+	//TC = O(n)
+	cout<<endl<<endl;
+
+	for(int i=0; i<n; i++) {
+		for(int j=1; j<=n; j++) {
+			i++;
+		}
+	}
+	//TC= O(n)
+	cout<<endl<<endl;
+
+	//BEST QUESTION DHYAAN(Notes)
+	for(int i=2; i<=n; i*=i) {
+		cout<<"GoodBye";
+	}
+	//TC = O(x+1)
+	// x = log2(log2(n))
+	//Tc = O(loglogn)
+	cout<<endl<<endl;
+	
+	for(int i=2;i*i<=n;i*=i){
+	    cout<<"BYE";
+	}
+	//TC = O(loglogsqrt n) is approximately equal to O(loglogn)
+
+
+}
