@@ -85,7 +85,9 @@ int main() {
 		}
 
 	}
-	//TC = O(sum of GP)
+	//TC = O(sum of GP) ==> 1+2+4+6+8....n
+	//Method -1: GP = 1(2^log2(n+1) - 1)
+	//Method - 2: s+1 = 2n ==> s = 2n-1
 	//TC = O(2n-1)
 	//TC = O(n) approximately
 
