@@ -1,0 +1,36 @@
+#include <iostream>
+using namespace std;
+int main() {
+	//Search in Array
+	int n;
+	cout<<"Enter The Number of Element in Array: ";
+	cin>>n;
+
+	float arr[n];
+
+	for(int i=0; i<=n-1; i++) {
+		cout<<"Enter The Number("<<i<<")= ";
+		cin>>arr[i];
+	}
+
+	cout<<"Array: {";
+
+	for(int i=0; i<=n-1; i++) {
+		if(i==n-1) cout<<arr[i]<<"}";
+		else cout<<arr[i]<<",";
+	}
+	cout<<endl;
+	float x;
+	cout<<"The Number To Search= ";
+	cin>>x;
+	bool flag = false;//false means not present
+	for(int i=0; i<=n-1; i++) {
+		if(arr[i]==x) {
+			flag =true;//true means present
+			break;
+		}
+	}
+	if(flag==true) cout<<"The Number '"<<x<<"' is present in the Array.";
+	else cout<<"The Number '"<<x<<"' is not present in the Array.";
+
+}
