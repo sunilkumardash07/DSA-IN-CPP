@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main() {
+	//Size and sizeof operator
+	//size means length = no. of elements
+	int marks[] = {74,96,91,57,62,35,89,54,32,45,12};
+	//Method 1:
+	//cout<<size(marks)<<endl;//this not works bcoz of older cpp compiler version(works in leetcode)
+	
+	//Method-2:
+	cout<<sizeof(marks)<<endl;//it shows total bytes
+	int x=10;
+	cout<<sizeof(x)<<endl;
+	//To calculate no. of elements we divide by the size of datatype
+	cout<<sizeof(marks)/4<<endl;
+	cout<<sizeof(marks)/sizeof(int)<<endl;
+
+}
