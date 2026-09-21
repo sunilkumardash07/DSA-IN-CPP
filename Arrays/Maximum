@@ -1,0 +1,57 @@
+#include <iostream>
+#include <climits>
+#include <cfloat>
+using namespace std;
+int main() {
+	//Maximum element of the Array
+	//Don't use max name as variable bcoz there is an inbuilt function, so avoid naming max as a variable name
+	int n;
+	cout<<"Enter The Number of Element in Array: ";
+	cin>>n;
+
+	float arr[n];
+
+	for(int i=0; i<=n-1; i++) {
+		cout<<"Enter The Number("<<i<<")= ";
+		cin>>arr[i];
+	}
+
+	cout<<"Array: {";
+
+	for(int i=0; i<=n-1; i++) {
+		if(i==n-1) cout<<arr[i]<<"}";
+		else cout<<arr[i]<<",";
+	}
+	cout<<endl;
+
+	//Method -1 ==> This method only works for Numbers greater than 0 or Positive Numbers
+	float mx=0;
+
+	for(int i=0; i<=n-1; i++) {
+		if(arr[i]>mx) mx=arr[i] ;
+	}
+	cout<<"Maximum Element = "<<mx<<endl;
+
+	//Method -2
+	int mx1= INT_MIN;
+	for(int i=0; i<=n-1; i++) {
+		if(arr[i]>mx1) mx1=arr[i] ;
+	}
+	cout<<"Maximum Element = "<<mx1<<endl;
+
+	//Method -3
+	int mx2=arr[0];
+	for(int i=0; i<=n-1; i++) {
+		if(arr[i]>mx2) mx2=arr[i] ;
+	}
+	cout<<"Maximum Element = "<<mx2<<endl;
+
+	//Method-4 ==>Use inbuilt Function
+	float mx3=arr[0];
+	for(int i=0; i<=n-1; i++) {
+		mx3 = max(mx3,arr[i]);
+	}
+	cout<<"Maximum Element = "<<mx3<<endl;
+
+
+}
