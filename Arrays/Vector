@@ -1,0 +1,53 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+int main() {
+    //Vector in C++
+    //Vector is dynamic array. Vector is a sort of array which grows.
+    //Regular array has a fixed size.
+    
+    vector<int> arr(5);//5 size ka Vector
+    int n= arr.size();
+    //index 0 to 4
+    for (int i=0;i<=n-1;i++){
+        cout<<arr[i]<<" ";//by default 0 aagya
+    }
+    cout<<endl;
+    
+    vector<int> brr(5,18);//5 size ka Vector , default value 18
+    //index 0 to 4
+    for (int i=0;i<brr.size();i++){
+        cout<<brr[i]<<" ";//by default 18 aagya
+    }
+    cout<<endl;
+    
+    vector<float> crr(6,-1);
+    for(int i=0;i<crr.size();i++){
+        cout<<crr[i]<<" ";
+    }
+    cout<<endl;
+    
+    brr.push_back(5);//adds an element at end
+    for (int i=0;i<brr.size();i++){
+        cout<<brr[i]<<" ";
+    }
+    cout<<endl;
+    cout<<brr.size()<<endl;
+    
+    brr.push_back(14);
+    for (int i=0;i<brr.size();i++){
+        cout<<brr[i]<<" ";
+    }
+    cout<<endl;
+    
+    arr.pop_back();//removes last element
+    arr.push_back(1000);
+    for (int i=0;i<arr.size();i++){
+        cout<<arr[i]<<" ";
+    }
+    cout<<endl;
+    
+    //How it works internally..??
+
+    
+}
