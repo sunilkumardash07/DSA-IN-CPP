@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+int main() {
+	//Product of the Elements
+	int n;
+	cout<<"Enter The Number of Elements in Array= ";
+	cin>>n;
+
+	float arr[n];
+
+	for(int i=0; i<=n-1; i++) {
+		cout<<"Enter The Number("<<i<<")= ";
+		cin>>arr[i];
+	}
+
+	cout<<"Array: {";
+	for (int i=0; i<=n-1; i++) {
+		if(i==n-1) cout<<arr[i]<<"}";
+		else cout<<arr[i]<<",";
+	}
+	cout<<endl;
+
+	float prod=1;
+	for(int i=0; i<=n-1; i++) {
+		prod*=arr[i];
+	}
+
+	cout<<"Product Of the Elements= "<<prod;
+}
