@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main() {
+	//Array Declaration
+
+	int a[25];
+	a[0]=2;
+	cout<<a[0]<<endl;
+
+	//int b(25);//this is wrong
+
+	int size =10,b[size];
+	//size value 10 and an array is created of 10 containers
+
+	//int c={1,2,3}//ERROR
+
+}
