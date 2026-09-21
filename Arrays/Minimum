@@ -1,0 +1,28 @@
+#include <iostream>
+#include <climits>
+#include <cfloat>
+using namespace std;
+int main(){
+    //Minimum
+    int n;
+    cout<<"Enter The Number of Elements in Array= ";
+    cin>>n;
+    float arr[n];
+    for(int i=0;i<=n-1;i++){
+        cout<<"Enter The Number("<<i<<")= ";
+        cin>>arr[i];
+    }
+    
+    cout<<"Array = {";
+    for(int i=0;i<=n-1;i++){
+        if(i==n-1) cout<<arr[i]<<"}";
+        else cout<<arr[i]<<",";
+    }
+    cout<<endl;
+    float x=FLT_MAX;
+    
+    for(int i=0;i<=n-1;i++){
+        if(arr[i]<x) x=arr[i];
+    }
+    cout<<"Minimum Element of The Array= "<<x;
+}
