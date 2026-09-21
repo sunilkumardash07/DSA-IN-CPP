@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int num[26],temp;
+    num[0]=100;
+    num[25]=200;
+    cout<<"The Numbers: "<<num[0]<<", "<<num[25]<<endl;
+    temp=num[25];
+    num[25]=num[0];
+    num[0]=temp;
+    cout<<"Swap: "<<num[0]<<", "<<num[25]<<endl;
+    
+}
