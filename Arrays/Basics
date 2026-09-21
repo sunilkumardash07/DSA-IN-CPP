@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+int main() {
+	//What is a Data Structure??
+	//In life, we store data in different ways for different purposes
+	//What is an Array??
+
+	//int govind=74;
+	//int ruhani=96;
+	//int subham =91;
+	//int anu=57;
+	//int adii=62;
+	//int suman=35
+	int marks[] = {74,96,91,57,62,35};//We created an array
+	//Array stores data in linear format(in roll no, or index)
+	//Array indices strts from 0 and increase one by one
+	cout<<marks[2]<<endl;
+	cout<<marks[1]<<endl;
+	cout<<marks[5]<<endl;
+	cout<<marks[0]<<endl;
+
+	marks[2] = 23;//We can modify values
+	cout<<marks[2]<<endl;
+	cin>>marks[2];//we can take input
+	cout<<marks[2]<<endl;
+}
