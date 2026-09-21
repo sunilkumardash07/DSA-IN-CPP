@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+//Passing Array and Size to Function(v.v.v important)
+//Think --> Array is similar to pointer
+void change(int x[]){
+    x[0]=20;
+}
+void fun(int y[]){
+    y[0]=50;
+    y[1]=100;
+}
+void dish(int z){
+    z=10;
+}
+int main() {
+    int x[]={6,1,2};
+    change(x);//Here whole array not gone &x[0] is gone
+    cout<<x[0]<<endl;
+    fun(x);
+    cout<<x[0]<<endl;
+    cout<<x[1]<<endl;
+    dish(x[2]);//kuch farak nhi pada
+    cout<<x[2]<<endl;
+
+}
