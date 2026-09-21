@@ -1,0 +1,8 @@
+#include <iostream>
+using namespace std;
+int main(){
+    //Dynamic Allocation
+    int arr[7];//Static Allocation
+    int brr = new int[7];//Dynamic Allocation
+
+}
