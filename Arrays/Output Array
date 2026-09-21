@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int arr[]= {74,65,68,79,80,90,5,12};
+    // cout<<arr[0]<<" ";
+    // cout<<arr[1]<<" ";
+    // cout<<arr[2]<<" ";
+    // cout<<arr[3]<<" ";
+    // cout<<arr[5]<<" ";
+    // cout<<arr[6]<<" ";//Majdoori
+    
+    //We use loops to traverse in the array
+    int n=sizeof(arr)/4;
+    for(int i=0;i<=n-1;i++){//0 to n-1
+        cout<<arr[i]<<" ";
+    }
+}
