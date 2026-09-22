@@ -1,0 +1,10 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+int main() {
+	//Vectors Push Pop
+	vector<int> v(7);// 7 zeroes(default) hai ==> not an empty array
+	v.push_back(-6);//ek aur element aa gya size 1 se badh gya aur capacity double ho gya
+	cout<<"Size= "<<v.size()<<"; "<<"Capacity= "<<v.capacity()<<endl;
+
+}
